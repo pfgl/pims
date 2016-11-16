@@ -6,8 +6,10 @@
 
             <div class="main" role="main">
 
-                <h1 class="page-title">PIMS News</h1>
+                <div class="page-header cf">
 
+                    <h1 class="page-title">PIMS News</h1>
+                </div>
                 <div class="posts">
 
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
